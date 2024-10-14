@@ -4,6 +4,13 @@ body{
     color: black;
 
 }
+* CSS Styling for Images */
+img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover; /* This ensures that the images are scaled to fit the dimensions */
+}
+
 header{
     background-color:blueviolet;
     text-align: center;
